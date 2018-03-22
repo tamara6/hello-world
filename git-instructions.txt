@@ -1,0 +1,17 @@
+git instructions
+
+git status  
+status of changes in directory
+
+git diff
+view changes to files
+
+git add <filename>
+add a files changes to be committed
+
+git add .
+add all files
+
+git commit -m "a comment"
+to save the changes that were made  
+
