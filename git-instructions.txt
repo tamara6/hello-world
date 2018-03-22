@@ -13,5 +13,20 @@ git add .
 add all files
 
 git commit -m "a comment"
-to save the changes that were made  
+to save the changes that were made
+
+add remote connection
+git remote add <remotename> <url>
+	
+set a url to a remote
+git remote set-url <remotename> <url>
+	
+pull in changes
+git pull <remotename> <branchname>
+	
+view remote addresses
+git remote -v
+
+push changes
+git push <remotename> <branch>  
 
