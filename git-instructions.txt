@@ -28,5 +28,27 @@ view remote addresses
 git remote -v
 
 push changes
-git push <remotename> <branch>  
+git push <remotename> <branch>
+	
+
+find a project you like
+click fork in upper right on web page
+that copies the project into your git account
+once the fork is on your git account, then clone it to your own computer
+
+git clone <url of fork on github> 
+to get a clone
+
+add a remote
+git remote add <remotename> <url>
+
+change a remote url
+git remote set-url <remotename> <url>
+	
+view remote connecitons
+git remote -v
+
+connect to an upstream thing
+git remote add upstream <url>
+  
 
